@@ -15,6 +15,7 @@
 		2CE13A531BDCCB0600840C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE13A511BDCCB0600840C86 /* LaunchScreen.storyboard */; };
 		2CE13A5E1BDCCB0600840C86 /* meituanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE13A5D1BDCCB0600840C86 /* meituanTests.m */; };
 		2CE13A691BDCCB0600840C86 /* meituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE13A681BDCCB0600840C86 /* meituanUITests.m */; };
+		2CE13A781BDCCC2800840C86 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE13A771BDCCC2800840C86 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2CE13A641BDCCB0600840C86 /* meituanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE13A681BDCCB0600840C86 /* meituanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanUITests.m; sourceTree = "<group>"; };
 		2CE13A6A1BDCCB0600840C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE13A761BDCCC2800840C86 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2CE13A771BDCCC2800840C86 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				2CE13A511BDCCB0600840C86 /* LaunchScreen.storyboard */,
 				2CE13A541BDCCB0600840C86 /* Info.plist */,
 				2CE13A431BDCCB0600840C86 /* Supporting Files */,
+				2CE13A761BDCCC2800840C86 /* Person.h */,
+				2CE13A771BDCCC2800840C86 /* Person.m */,
 			);
 			path = meituan;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				2CE13A4B1BDCCB0600840C86 /* ViewController.m in Sources */,
 				2CE13A481BDCCB0600840C86 /* AppDelegate.m in Sources */,
+				2CE13A781BDCCC2800840C86 /* Person.m in Sources */,
 				2CE13A451BDCCB0600840C86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
